@@ -28,7 +28,7 @@ public class HomeController {
 		logger.info("Welcome home! The client locale is {}.", locale);
 		
 		
-		mv.setViewName("/main");
+		mv.setViewName("/main.tiles");
 		
 		return mv;
 	}
